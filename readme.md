@@ -28,7 +28,7 @@ No code is provided for you. Follow the prompts quite literally! Make allll the 
 
 **Solution:** Don't worry about it for now, just keep going!
 
-**&#x1F47E; Glitch?** You forgot to make postgres the db with the `-d` flag? If you forget this, `sqlite` will be the default, and we don't want that. You could fix this by installing the `pg` gem and altering the `database.yml` file, but since you just made the app it would be easier to start over. Delete the app and repeat Part 1, correctly this time!
+**&#x1F47E; Glitch?** You forgot to make postgres the db with the `-d` flag? If you forget this, `sqlite` will be the default, and we don't want that. You could fix this by installing the `pg` gem and altering the `database.yml` file, but since you just made the app it would be easier to start over.
 
 **Solution:** Do `rails new` again, and this time use postgresql.
 
